@@ -48,18 +48,18 @@ body {
 .left_Content{
   position: fixed;
   background-color: #333333;
-  top: 300px;
+  top: 254px;
   width: 600px;
-  height: 629px;
+  height: 592px;
   left: 100px;
 }
 
 .right_Content{
   position: fixed;
   background-color: #333333;
-  top: 300px;
+  top: 254px;
   width: 600px;
-  height: 629px;
+  height: 592px;
   right: 100px;
 }
 
@@ -67,7 +67,7 @@ body {
   position: fixed;
   font-size: 12px;
   background-color: #FF6B6B; /* Very Light Red */
-  height: 40px;
+  height: 20px;
   width: 100%;
   bottom: 0px;
   right: 0px;
