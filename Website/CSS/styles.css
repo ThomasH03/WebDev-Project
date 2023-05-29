@@ -3,6 +3,7 @@ body {
   background-color: #FAFA33; /* Yellow */
   margin: 0;
   padding: 0;
+  
 }
 
 .html {
@@ -52,6 +53,8 @@ body {
   width: 600px;
   height: 592px;
   left: 100px;
+  color: #fff;
+  padding-left: px;
 }
 
 .right_Content{
@@ -80,13 +83,22 @@ body {
   align-items: center;
 }
 
+.left_Content p{
+padding-left: 4px;
+}
 
 .header h1 {
   color: #FFFFFF; /* White */
   margin: 0;
 }
 
-
+.artist_Image{
+  position: absolute;
+  width: 550px;
+  height: 542px;
+  left: 25px;
+  top: 25px;
+}
 
 .nav ul {
   list-style-type: none;
