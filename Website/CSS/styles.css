@@ -1,3 +1,5 @@
+/*This effects everything in the body*/
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -5,6 +7,8 @@ body {
 }
 
 
+
+/*This effects everyrthing in the header div e.g. sizing and placement*/
 .header {
   position: fixed;
   background-color: #FFBF00; /* Orange */
@@ -19,6 +23,8 @@ body {
   align-items: center;
 }
 
+/*This effects everyrthing in the nav div e.g. sizing and placement*/
+
 .nav {
   position: fixed;
   top: 110px;
@@ -27,6 +33,7 @@ body {
   padding: 15px;
 }
 
+/*This effects everyrthing in the content div e.g. sizing and placement*/
 .content {
   position: fixed;
   top: 150px;
@@ -35,11 +42,13 @@ body {
   background-color: #F8D7DA; /* Light pink */
   height: 100%;
   
-  /*makes the H2 be in the centre of the top*/
+  /*makes the H2 be in the centre of the top */
   display: flex;
   justify-content: center;
 }
 
+
+/*This effects everyrthing in the mini left div e.g. sizing and placement*/
 .left_Content {
   position: fixed;
   background-color: #333333;
@@ -50,6 +59,8 @@ body {
   color: #fff;
 }
 
+
+/*This effects everyrthing in the mini right div e.g. sizing and placement*/
 .right_Content {
   position: fixed;
   background-color: #333333;
@@ -60,6 +71,7 @@ body {
   color: #fff;
 }
 
+/*This effects everyrthing in the merch div e.g. sizing and placement and text color*/
 .merch_Content {
   position: fixed;
   background-color: #333333;
@@ -71,6 +83,7 @@ body {
   height: 592px;
 }
 
+/*This effects everyrthing in the social media div e.g. sizing and placement*/
 .social-media {
   position: fixed;
   background-color: #FF6B6B; /* Very Light Red */
@@ -87,16 +100,7 @@ body {
   align-items: center;
 }
 
-.left_Content p {
-  padding-top: 25px;
-  padding-left: 4px;
-}
-
-.header h1 {
-  color: #FFFFFF; /* White */
-  margin: 0;
-}
-
+/*this effects the artist image and is basically just placement e.g. sizing and placement*/
 .artist_Image {
   position: absolute;
   width: 550px;
@@ -105,6 +109,19 @@ body {
   top: 25px;
 }
 
+/*This effects all of the p tags in the left content div*/
+.left_Content p {
+  padding-top: 25px;
+  padding-left: 4px;
+}
+
+/*This effects the h1 in the header div*/
+.header h1 {
+  color: #FFFFFF; /* White */
+  margin: 0;
+}
+
+/*this effects the unorganised list in the nav div (nav bar)*/
 .nav ul {
   list-style-type: none;
   margin: 0;
@@ -116,34 +133,37 @@ body {
   margin-right: 50px;
 }
 
+/*this effects the unorganised and organised list in the nav div (nav bar)*/
 .nav ul li a {
   text-decoration: none;
   color: #fff; /* White */
 }
 
+/*this effects the nav when it is hovered over*/
+.nav ul li a:hover {
+  color: #FF6B6B; /* Very Light Red */
+}
+
+/*this effects the h3's in the left and right content*/
 .left_Content h3,
 .right_Content h3 {
   text-align: center;
 }
 
-.nav ul li a:hover {
-  color: #FF6B6B; /* Very Light Red */
-}
-
+/*this effects the social media list*/
 .social-media li {
   display: inline-block;
   margin-right: 10px;
 }
 
-.social-media li:last-child {
-  margin-right: 0;
-}
+/*this effects the social media list by setting the test color in the list*/
 
 .social-media li a {
   color: #FFFFFF; /* White */
   text-decoration: none;
 }
 
+/*This effects the shop grid by setting up the placement of the grid e.g. how many is in a row and the gap between them*/
 .shop-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -151,10 +171,12 @@ body {
   padding-top: 30px;
 }
 
+/*This alligns the text in item div to the center*/
 .item {
   text-align: center;
 }
 
+/*this sets the image size in the item divs.*/
 .item img {
   width: 100px;
   height: 100px;
