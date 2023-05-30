@@ -3,7 +3,6 @@ body {
   background-color: #FAFA33; /* Yellow */
   margin: 0;
   padding: 0;
-  
 }
 
 .html {
@@ -21,7 +20,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .nav {
@@ -31,8 +29,6 @@ body {
   background-color: #FFBF00; /* Orange */
   padding: 15px;
 }
-
-
 
 .content {
   position: fixed;
@@ -46,7 +42,7 @@ body {
   justify-content: center;
 }
 
-.left_Content{
+.left_Content {
   position: fixed;
   background-color: #333333;
   top: 254px;
@@ -62,13 +58,14 @@ body {
   text-align: center;
 }
 
-.right_Content{
+.right_Content {
   position: fixed;
   background-color: #333333;
   top: 254px;
   width: 600px;
   height: 592px;
   right: 100px;
+  color: #fff;
 }
 
 .social-media {
@@ -88,7 +85,7 @@ body {
   align-items: center;
 }
 
-.left_Content p{
+.left_Content p {
   padding-top: 25px;
   padding-left: 4px;
 }
@@ -98,7 +95,7 @@ body {
   margin: 0;
 }
 
-.artist_Image{
+.artist_Image {
   position: absolute;
   width: 550px;
   height: 542px;
@@ -126,12 +123,9 @@ body {
   color: #FF6B6B; /* Very Light Red */
 }
 
-
-
 .content h2 {
   color: #333333; /* Dark gray */
 }
-
 
 .social-media li {
   display: inline-block;
@@ -161,3 +155,22 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.booking-button {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.left_Content p,
+.right_Content p {
+  margin-left: 10px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  margin-top: 10px;
+}
+
