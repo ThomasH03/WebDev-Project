@@ -149,6 +149,10 @@ body {
 .right_Content h3 {
   text-align: center;
 }
+/*Last minute change to fill up a bit more of the space  adds space to the lists in the left content box*/
+.left_Content ul li{
+  padding-bottom: 10px;
+}
 
 /*this effects the social media list*/
 .social-media li {
