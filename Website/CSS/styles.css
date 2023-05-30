@@ -1,22 +1,19 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #FAFA33; /* Yellow */
   margin: 0;
   padding: 0;
 }
 
-.html {
-  color: #333333; /* Gray */
-}
 
 .header {
   position: fixed;
   background-color: #FFBF00; /* Orange */
-  padding: 20px;
   top: 0px;
   height: 115px;
   left: 0%;
   width: 100%;
+
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +34,7 @@ body {
   padding: 20px;
   background-color: #F8D7DA; /* Light pink */
   height: 100%;
+  
   /*makes the H2 be in the centre of the top*/
   display: flex;
   justify-content: center;
@@ -50,7 +48,6 @@ body {
   height: 592px;
   left: 100px;
   color: #fff;
-  padding-left: px;
 }
 
 .right_Content {
@@ -72,17 +69,15 @@ body {
   padding-left: px;
   width: 1720px;
   height: 592px;
-  color: #fff;
 }
 
 .social-media {
   position: fixed;
-  font-size: 12px;
   background-color: #FF6B6B; /* Very Light Red */
   height: 20px;
   width: 100%;
   bottom: 0px;
-  right: 0px;
+  
   list-style: none;
   padding: 0;
   margin: 0;
@@ -133,10 +128,6 @@ body {
 
 .nav ul li a:hover {
   color: #FF6B6B; /* Very Light Red */
-}
-
-.content h2 {
-  color: #333333; /* Dark gray */
 }
 
 .social-media li {
