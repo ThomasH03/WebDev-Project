@@ -57,6 +57,11 @@ body {
   padding-left: px;
 }
 
+.left_Content h3,
+.right_Content h3 {
+  text-align: center;
+}
+
 .right_Content{
   position: fixed;
   background-color: #333333;
@@ -149,4 +154,10 @@ body {
 .social-media ul li {
   display: inline;
   margin-right: 50px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
