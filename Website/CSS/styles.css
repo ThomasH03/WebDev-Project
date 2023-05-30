@@ -53,11 +53,6 @@ body {
   padding-left: px;
 }
 
-.left_Content h3,
-.right_Content h3 {
-  text-align: center;
-}
-
 .right_Content {
   position: fixed;
   background-color: #333333;
@@ -65,6 +60,18 @@ body {
   width: 600px;
   height: 592px;
   right: 100px;
+  color: #fff;
+}
+
+.merch_Content {
+  position: fixed;
+  background-color: #333333;
+  top: 254px;
+  left: 100px;
+  color: #fff;
+  padding-left: px;
+  width: 1720px;
+  height: 592px;
   color: #fff;
 }
 
@@ -119,6 +126,11 @@ body {
   color: #fff; /* White */
 }
 
+.left_Content h3,
+.right_Content h3 {
+  text-align: center;
+}
+
 .nav ul li a:hover {
   color: #FF6B6B; /* Very Light Red */
 }
@@ -137,40 +149,23 @@ body {
 }
 
 .social-media li a {
+  color: #FFFFFF; /* White */
   text-decoration: none;
-  color: #fff; /* White */
 }
 
-.social-media li a:hover {
-  color: #FFBF00; /* Yellow */
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
+  padding-top: 30px;
 }
 
-.social-media ul li {
-  display: inline;
-  margin-right: 50px;
-}
-
-.video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.booking-button {
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
-}
-.left_Content p,
-.right_Content p {
-  margin-left: 10px;
-}
-
-.button-container {
+.item {
   text-align: center;
 }
 
-.button-container button {
-  margin-top: 10px;
+.item img {
+  width: 100px;
+  height: 100px;
 }
 
